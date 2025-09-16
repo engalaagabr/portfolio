@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+  <!-- HEADER -->
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="#">Alaa Gabr</a>
@@ -54,11 +55,13 @@
           </div>
         </div>
 
+        <!-- FIXED HERO RIGHT -->
         <aside class="hero-right">
-          <img src="profile.jpg" alt="Alaa Gabr" class="profile-pic" />
+          <img src="profile.jpg" alt="Alaa Elsayed Gabr" class="profile-pic" />
           <div class="contact-mini">
             <strong>Alaa Elsayed Gabr</strong><br>
-            (+2) 01094743581 · <a href="mailto:engalaagabr@hotmail.com">engalaagabr@hotmail.com</a>
+            <i class="fas fa-phone"></i> (+2) 01094743581 <br>
+            <i class="fas fa-envelope"></i> <a href="mailto:engalaagabr@hotmail.com">engalaagabr@hotmail.com</a>
           </div>
 
           <div class="chips">
@@ -252,27 +255,29 @@
       </div>
     </section>
 
-    <!-- CONTACT -->
+    <!-- CONTACT (FIXED) -->
     <section id="contact" class="block">
       <div class="container">
         <div class="section-title">✉️ Contact</div>
-        <div class="section-sub">Reach out for collaboration or freelance work</div>
+        <div class="section-sub">Let’s work together</div>
 
         <div class="contact-grid">
           <div class="card">
-            <h4>Contact Info</h4>
-            <p class="contact-mini">
-              <strong>Alaa Elsayed Gabr</strong><br>
-              (+2) 01094743581 · <a href="mailto:engalaagabr@hotmail.com">engalaagabr@hotmail.com</a><br>
+            <h4>Get in Touch</h4>
+            <p><strong>Alaa Elsayed Gabr</strong></p>
+            <p><i class="fas fa-phone"></i> (+2) 01094743581</p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:engalaagabr@hotmail.com">engalaagabr@hotmail.com</a></p>
+            <div class="socials">
               <a href="https://www.linkedin.com/in/engalaagabr" target="_blank"><i class="fab fa-linkedin"></i></a>
               <a href="https://github.com/engalaagabr" target="_blank"><i class="fab fa-github"></i></a>
               <a href="https://www.kaggle.com/engalaagabr" target="_blank"><i class="fab fa-kaggle"></i></a>
-            </p>
+            </div>
           </div>
 
           <form class="card contact-form" action="https://formsubmit.co/engalaagabr@hotmail.com" method="POST">
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+
             <label>
               <span>Name</span>
               <input type="text" name="name" placeholder="Your name" required>
@@ -283,8 +288,9 @@
             </label>
             <label>
               <span>Message</span>
-              <textarea name="message" placeholder="Tell me about your project or idea" rows="5" required></textarea>
+              <textarea name="message" placeholder="Tell me about your project" rows="5" required></textarea>
             </label>
+
             <div class="form-row">
               <button class="btn btn-primary" type="submit">Send Message</button>
               <a class="btn btn-ghost" href="https://calendly.com/engalaagabr" target="_blank">Book a Call</a>
